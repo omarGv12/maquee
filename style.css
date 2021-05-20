@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Girassol', cursive; 
+}
+.header{
+    background: #183567; 
+    height: 150px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 5px 0px 10px #000;
+
+}
+.logo{
+    flex:2;
+    width: 100px;
+    height: 170px;
+    background-position: center;
+    padding: 30px;
+}
+.marquesina{
+    flex: 5;
+}
+
+.TITLE_MARQUEE{
+    color: #fff;
+    letter-spacing: 10px;
+    font-size: 50px;
+    margin-right: 30px;
+}
+.banner{
+    background: url(https://cdn.pixabay.com/photo/2017/08/10/08/47/laptop-2620118_960_720.jpg);
+    background-size: cover;
+    background-repeat: 0;
+    background-position: center;
+    height: 600px;
+    
+}
+.banner h2 { 
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px #000;
+    background:rgba(0,0,0,.7);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    box-shadow: 5px 0px 10px #000;
+}
+.content{
+    margin: 30px  auto  0;
+    width: 90%;
+    
+}
+.content > h1 {
+text-align: center;
+font-size: 30px ;
+color: #222;
+}
+.content p { 
+    margin: 60px 0;
+    color: #444;
+    box-shadow: 1px 1px 5px #000;
+    padding: 20px ;
+    border-radius: 30px;
+}
+.content  p b {
+    font-size: 30px;
+    color: #333;    
+} 
